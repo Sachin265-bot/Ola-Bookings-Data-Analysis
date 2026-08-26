@@ -1,5 +1,7 @@
 🚖 Ola Rides Booking Analysis & Dashboard
+
 An end-to-end data analytics project examining 103,000+ Ola ride bookings for July 2024. This project analyzes ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization using Excel, SQL, and Power BI.
+
 📌 Executive Summary & Key KPIs (July 2024)
  * Total Bookings: 103,024 rides
  * Successful Bookings: 63,967 (62.09% completion rate)
@@ -9,6 +11,7 @@ An end-to-end data analytics project examining 103,000+ Ola ride bookings for Ju
  * Driver Not Found: 10,124 (9.83%)
  * Net Realized Revenue (Success Rides): ₹35.08M (Gross Value: ₹56.53M)
  * Top Payment Channels: Cash (₹19.3M) & UPI (₹14.2M)
+
 🛠️ Tech Stack & Architecture
  * Microsoft Excel: Raw data cleaning, missing value handling, and schema validation.
  * SQL Server / MySQL: Analytical queries, aggregations, and business logic views.
