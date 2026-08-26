@@ -32,6 +32,7 @@ Excel (Data Cleaning) ──> SQL Database (Views & Queries) ──> Power BI (D
  * 3. Revenue & Payment Analysis: Cash accounts for ~55% of realized revenue, followed by UPI (~40%). High-value customers and daily distance trends.
  * 4. Cancellation Deep-Dive: Primary customer reason is Driver not moving towards pickup (30.24%). Primary driver reason is Personal & Car related issues (35.49%).
  * 5. Ratings Breakdown: Driver ratings average 3.98–4.01/5.0 and customer ratings average 3.99–4.01/5.0 across all vehicle types.
+
 🔍 SQL Views & Business Queries (Sql query/SQLQuery1.sql)
 | # | SQL View Name | Business Objective |
 |---|---|---|
@@ -45,6 +46,7 @@ Excel (Data Cleaning) ──> SQL Database (Views & Queries) ──> Power BI (D
 | 8 | Average_Customer_Rating | Calculate average customer rating per vehicle category |
 | 9 | Revenue_Success_Bookings | Calculate total booking revenue from completed rides |
 | 10 | incomplete_ride_reason | List incomplete rides along with specific logged reasons |
+
 🚀 How to Set Up & Run
  * Clone this repository:
    git clone https://github.com/Sachin265-bot/Ola-Bookings-Data-Analysis.git
@@ -52,7 +54,6 @@ Excel (Data Cleaning) ──> SQL Database (Views & Queries) ──> Power BI (D
  * Execute SQL Views:
    * Import Bookings.csv into SQL Server or MySQL.
    * Run the script inside Sql query/SQLQuery1.sql to generate all views.
+
  * Open Dashboard:
    * Launch Ola Power BI/ola power bi.pbix in Power BI Desktop to interact with visual filters.
-
-4. Paste karne ke baad green button **Commit changes** par click kar dein. Isse table, headers aur sections clean format me display ho jayenge.
