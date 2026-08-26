@@ -1,4 +1,4 @@
-🚖 Ola Rides Booking Analysis & Dashboard
+# 🚖 Ola Rides Booking Analysis & Dashboard
 
 An end-to-end data analytics project examining 103,000+ Ola ride bookings for July 2024. This project analyzes ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization using Excel, SQL, and Power BI.
 
