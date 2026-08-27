@@ -1,18 +1,3 @@
-* Execute SQL Views:
-   * Import Bookings.csv into SQL Server or MySQL.
-   * Run the queries inside Ola_Analysis_Queries.sql to generate all views.
- * Open Dashboard:
-   * Open ola power bi.pbix in Power BI Desktop to view and interact with all 5 pages and slicers.
-     """
-print("Checking 'span':", "span" in text.lower())
-print("Checking 'cite':", "cite" in text.lower())
-print("Checking backtick count:", text.count("```"))
-
-```text?code_stdout&code_event_index=1
-Checking 'span': False
-Checking 'cite': False
-Checking backtick count: 2
-
 # 🚖 Ola Rides Booking Analysis & Interactive Dashboard
 An end-to-end data analytics project examining 103,024 Ola ride bookings for July 2024 (Bengaluru). This repository includes raw data cleaning, business-level SQL queries/views, and an interactive 5-page Power BI dashboard analyzing ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization.
 📌 Executive Summary & Key KPIs (July 2024)
