@@ -1,6 +1,6 @@
 # 🚖 Ola Rides Booking Analysis & Interactive Dashboard
 
-An end-to-end data analytics project examining **103,024 Ola ride bookings** for July 2024 (Bengaluru)[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span). This repository includes raw data cleaning, business-level SQL queries/views, and an interactive 5-page Power BI dashboard analyzing ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
+An end-to-end data analytics project examining **103,024 Ola ride bookings** for July 2024 (Bengaluru). This repository includes raw data cleaning, business-level SQL queries/views, and an interactive 5-page Power BI dashboard analyzing ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization.
 
 ---
 
@@ -8,22 +8,22 @@ An end-to-end data analytics project examining **103,024 Ola ride bookings** for
 
 | Metric | Value | Details / Share |
 |---|---|---|
-| **Total Bookings** | 103,024 rides[span_4](start_span)[span_4](end_span) | Full dataset for July 2024[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span) |
-| **Successful Bookings** | 63,967 rides[span_7](start_span)[span_7](end_span) | 62.09% completion rate[span_8](start_span)[span_8](end_span) |
-| **Total Cancellations** | 28,933 rides[span_9](start_span)[span_9](end_span) | 28.08% overall cancellation rate[span_10](start_span)[span_10](end_span) |
-| **Cancelled by Driver** | 18,434 rides[span_11](start_span)[span_11](end_span) | 17.89% of total bookings[span_12](start_span)[span_12](end_span) |
-| **Cancelled by Customer** | 10,499 rides[span_13](start_span)[span_13](end_span) | 10.19% of total bookings[span_14](start_span)[span_14](end_span) |
-| **Driver Not Found** | 10,124 rides[span_15](start_span)[span_15](end_span) | 9.83% of total bookings[span_16](start_span)[span_16](end_span) |
+| **Total Bookings** | 103,024 rides | Full dataset for July 2024 |
+| **Successful Bookings** | 63,967 rides | 62.09% completion rate |
+| **Total Cancellations** | 28,933 rides | 28.08% overall cancellation rate |
+| **Cancelled by Driver** | 18,434 rides | 17.89% of total bookings |
+| **Cancelled by Customer** | 10,499 rides | 10.19% of total bookings |
+| **Driver Not Found** | 10,124 rides | 9.83% of total bookings |
 | **Net Realized Revenue** | ₹35.08M | Gross Booking Value: ₹56.53M |
-| **Top Payment Methods** | Cash & UPI | Cash: ₹19.3M (~55%), UPI: ₹14.2M (~40%)[span_17](start_span)[span_17](end_span) |
+| **Top Payment Methods** | Cash & UPI | Cash: ₹19.3M (~55%), UPI: ₹14.2M (~40%) |
 
 ---
 
 ## 🛠️ Tech Stack & Architecture
 
-* **Microsoft Excel / CSV (`Bookings.csv`):** Raw dataset handling, schema validation, and data cleaning[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).
-* **SQL Server / MySQL (`Ola_Analysis_Queries.sql`):** Analytical views, business KPI aggregations, and filtered subqueries[span_20](start_span)[span_20](end_span)[span_21](start_span)[span_21](end_span).
-* **Power BI (`ola power bi.pbix`):** Data modeling, DAX measures, and a 5-page interactive dashboard[span_22](start_span)[span_22](end_span)[span_23](start_span)[span_23](end_span)[span_24](start_span)[span_24](end_span).
+* **Microsoft Excel / CSV (`Bookings.csv`):** Raw dataset handling, schema validation, and data cleaning.
+* **SQL Server / MySQL (`Ola_Analysis_Queries.sql`):** Analytical views, business KPI aggregations, and filtered subqueries.
+* **Power BI (`ola power bi.pbix`):** Data modeling, DAX measures, and a 5-page interactive dashboard.
 
 ```text
 Bookings.csv (Data Cleaning) ──> Ola_Analysis_Queries.sql (Views & Logic) ──> ola power bi.pbix (Interactive UI)
