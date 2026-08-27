@@ -1,4 +1,3 @@
- :
 # 🚖 Ola Rides Booking Analysis & Interactive Dashboard
 
 An end-to-end data analytics project examining **103,024 Ola ride bookings** for July 2024 (Bengaluru). This repository includes raw data cleaning, business-level SQL queries/views, and an interactive 5-page Power BI dashboard analyzing ride completion rates, cancellation drivers, customer/driver satisfaction, and revenue realization.
@@ -29,6 +28,7 @@ An end-to-end data analytics project examining **103,024 Ola ride bookings** for
 ```text
 Bookings.csv (Data Cleaning) ──> Ola_Analysis_Queries.sql (Views & Logic) ──> ola power bi.pbix (Interactive UI)
 
+  
 📊 Power BI Dashboard Breakdown & Questions Solved
 | # | Power BI Question / Visual | Dashboard Page | Visual Type | Key Metric / Business Insight |
 |---|---|---|---|---|
@@ -43,7 +43,6 @@ Driver: Personal & Car issues (35.49%), Customer issues (29.36%) |
 | Q8 | Ride Distance Distribution Per Day | Revenue View | Column Chart | Day-wise aggregate distance covered across July 2024 |
 | Q9 | Driver Rating Distribution | Ratings View | Bar / Matrix | Driver ratings average between 3.98 – 4.01 / 5.0 across vehicle categories |
 | Q10 | Customer vs. Driver Ratings | Ratings View | Comparative Visual | Uniform distribution of ratings across all 7 fleet types |
-
 🔍 SQL Views & Business Queries (Ola_Analysis_Queries.sql)
 | # | SQL View Name | Business Objective / Question Addressed |
 |---|---|---|
@@ -57,6 +56,7 @@ Driver: Personal & Car issues (35.49%), Customer issues (29.36%) |
 | 8 | Average_Customer_Rating | Calculate the average customer rating per vehicle type |
 | 9 | Revenue_Success_Bookings | Calculate total booking revenue generated from completed rides |
 | 10 | incomplete_ride_reason | List all incomplete rides along with their specific logged reasons |
+ 
 
 🚀 How to Set Up & Run
  * Clone the Repository:
