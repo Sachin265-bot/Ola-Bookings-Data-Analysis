@@ -1,4 +1,4 @@
-# Ola Bookings Data Analysis & Power BI Dashboard
+ # 🚖 Ola Bookings Data Analysis & Power BI Dashboard
 
 ## 1. Project Overview
 
@@ -100,16 +100,25 @@ The Power BI dashboard is organized into five report pages, each focused on a sp
 
 - `Bookings.csv` — Raw Ola bookings dataset (103,024 records, July 2024)
 - `Ola_Analysis_Queries.sql` — SQL queries and views used for data analysis
-- `ola_power_bi.pbix` — Power BI dashboard file
-- `ola_power_bi.pdf` — Exported view of the Power BI dashboard pages
+- `Ola Power BI/` — Power BI dashboard file (.pbix)
+- `Power Bi Screenshots/` — Screenshots of all five dashboard pages (Overall, Vehicle Type, Revenue, Cancellation, Ratings)
 
 ## 11. Dashboard Preview
 
-## Dashboard Preview
+**Overall**
+![Overall Page](Power%20Bi%20Screenshots/1%20ola%20power%20bi.jpg)
 
-![Ola Bookings Dashboard](images/ola-dashboard.png)
+**Vehicle Type**
+![Vehicle Type Page](Power%20Bi%20Screenshots/2%20ola%20power%20bi.jpg)
 
-Place the dashboard screenshot(s) inside an `images/` folder at the root of the repository (e.g., `images/ola-dashboard.png`) so the image renders correctly in this README.
+**Revenue**
+![Revenue Page](Power%20Bi%20Screenshots/3%20ola%20power%20bi.jpg)
+
+**Cancellation**
+![Cancellation Page](Power%20Bi%20Screenshots/4%20ola%20power%20bi.jpg)
+
+**Ratings**
+![Ratings Page](Power%20Bi%20Screenshots/5%20ola%20power%20bi.jpg)
 
 ## 12. How to Use
 
